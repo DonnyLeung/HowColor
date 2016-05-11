@@ -1,0 +1,25 @@
+/*CSS Reset*/
+body, h1, h2, h3, h4, h5, h6, p,ul, li, { margin: 0; padding: 0; }
+
+/* 设置默认字体 */
+body,button, input, select, textarea { 
+    font: 12px/1  Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; 
+}
+ul, ol { list-style: none; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+input ,input:hover,input:active{ border: none ;}
+img { border: none; display: block;} /* img 搭车：让链接里的 img 无边框 */
+
+/* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
+html { overflow-y: scroll; height: 100%;width: 100%;}
+/*CSS Reset*/
+
+/*body { background-color: #000; height: 100%;width: 100%;}*/
+.main { width: 100%;position: absolute;height: auto;height: 100%;background: #F1F1F1;top:0;left: 0;}
+.body .box { background: #fff;position: absolute;width: 90%;height: auto;bottom: 0;left: 0;border-radius: 5px;margin: 0 5% 2%;}
+.body .box .row { width: 98%;margin: 1%;height: 48%;}
+
+.body .box#lv1 .row div { width: 48%;}
+.body .box#lv1 .row div { color: #f0f;}
