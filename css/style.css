@@ -18,8 +18,9 @@ html { overflow-y: scroll; height: 100%;width: 100%;}
 
 /*body { background-color: #000; height: 100%;width: 100%;}*/
 .main { width: 100%;position: absolute;height: auto;height: 100%;background: #F1F1F1;top:0;left: 0;}
-.body .box { background: #fff;position: absolute;width: 90%;height: auto;bottom: 0;left: 0;border-radius: 5px;margin: 0 5% 2%;}
-.body .box .row { width: 98%;margin: 1%;height: 48%;}
+.body .box { background: #fff;position: absolute;width: 90%;height: auto;bottom: 0;left: 0;border-radius: 5px;margin: 0 5% 2%;display: table-cell;}
+.body .box .row { display: table-cell;float: left;}
 
-.body .box#lv1 .row div { width: 48%;}
-.body .box#lv1 .row div { color: #f0f;}
+
+.body .box#lv1 .row div { background: #9C27B0;width: 98%;height: 98%;margin: auto;border-radius: 2%;}
+.body .box#lv1 .row.on div { background: #7D358A;}
